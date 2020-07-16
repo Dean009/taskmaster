@@ -1,0 +1,17 @@
+Goal: Create a app/website that will allow for tracking of goals and aid in the formation of habbits. 
+
+Allows for a 'board like' scenario where titles can be rearraged to make what could be a room layout. (As in a gym, showing the current progress on each machine in a simple to understand layout of said gym)
+
+Shows the goal for a reminder on load up of the app. "I want to lose 50lbs" Potentially showing progress to achieving that goal, however might be offputting if far away. 
+
+Allow for super customisable goals, this is not a gym/well being app. It should be useful for a varierty of use cases. 
+
+Automatic sync with the website utilising google login. 
+
+Sleak design. Nothing too intrusive or which would indicate a 'best use case'. Allow the user to use as they want.  Potentially an issue, as no clear defined goals can introduce project creep. 
+
+Allow lists to be made, useful for shopping, weight sets, household chores etc. 
+
+Allow for creation of profile import and export (like wow addons) to share setups with others. Potentially ugly, utilise the profile system better and allow for user created content on a store like interface. 
+
+
