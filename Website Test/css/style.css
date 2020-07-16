@@ -1,0 +1,83 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 3fr 1fr;
+	gap: 1px 1px;
+	grid-template-areas: "Header Header Header Header""leftcontent leftcontent leftcontent leftcontent""rightcontent rightcontent rightcontent rightcontent""Footer Footer Footer Footer";
+}
+
+.wrapper {
+	overflow: visible;
+	height: 210px;
+	width: 100%;
+}
+
+.Header {
+	grid-area: Header;
+}
+
+.Header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	z-index: -1;
+	border-radius: 25px;
+}
+
+#loginForm {
+	display: inline;
+	z-index: 0;
+	text-align: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+	font-size: 13px;
+	padding: 2px 2px 2px 2px;
+}
+
+.leftcontent {
+	grid-area: leftcontent;
+	background-color: green;
+	display: table-cell;
+	float: left;
+	width: 100%;
+}
+
+.rightcontent {
+	grid-area: rightcontent;
+	display: flex;
+	float: left;
+	border: thick double black;
+}
+
+.Footer {
+	grid-area: Footer;
+	position: absolute;
+	bottom: 0;
+	width: 99%;
+	text-align: right;
+	height: 50px;
+}
+
+#gymRoutineHeader {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#activityList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 75px;
+}
+
+li {
+	height: 25%;
+}

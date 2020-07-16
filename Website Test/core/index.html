@@ -3,7 +3,8 @@
 
 <head>
 	<title>TaskMaster</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -12,7 +13,7 @@
 		<div class="grid-container">
 
 			<div class="Header">
-				<img src="habbitorHeader.png" />
+				<img src="../img/habbitorHeader.png" />
 				<div id="loginForm">
 					<form action="" method="post">
 						<label for="username">Username: </label>
@@ -24,10 +25,10 @@
 				</div>
 			</div>
 			<div class="leftcontent">
-				<h1>Gym Routine</h1>
+				<h1 id="gymRoutineHeader">Gym Routine List</h1>
+				<button id="gyminputbutton" onclick="newListItem()">Add</button>
 				<label for="gyminput">Enter a new gym routine</label>
 				<input name="gyminput" type="text" id="gyminput" placeholder="...activity...">
-				<button id="gyminputbutton" onclick="newListItem()">Add</button>
 				<ul id="activityList"></ul>
 			</div>
 
@@ -41,7 +42,7 @@
 		</div>
 	</div>
 
-	<script src="script.js"></script>
+	<script src="../js/script.js"></script>
 
 </body>
 

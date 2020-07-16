@@ -1,0 +1,12 @@
+{
+    "Accounts": {
+        "name": "Dean Moore",
+        "dob": "04/03/1992",
+        "age": "28",
+        "hobbies": [
+            "Programming",
+            "Reading",
+            "Being a disaster"
+        ]
+    }
+}
