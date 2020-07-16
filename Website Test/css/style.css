@@ -19,6 +19,22 @@
 	padding: 0.5em;
 }
 
+#labelgym,
+#gyminput,
+#gyminputbutton {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+	font-style: italic;
+}
+
+
+#activityList li {
+	font-size: 20px;
+}
+
 .Header {
 	grid-area: Header;
 }
@@ -45,7 +61,6 @@
 
 .leftcontent {
 	grid-area: leftcontent;
-	background-color: green;
 	display: table-cell;
 	float: left;
 	width: 100%;
@@ -53,14 +68,13 @@
 
 .rightcontent {
 	grid-area: rightcontent;
-	display: flex;
-	float: left;
-	border: thick double black;
+	background-color: rgba(211, 211, 211, 0.541);
+	border: thick double rgb(54, 54, 54);
+	width: 99%;
 }
 
 .Footer {
 	grid-area: Footer;
-	position: absolute;
 	bottom: 0;
 	width: 99%;
 	text-align: right;
@@ -83,8 +97,4 @@
 	flex-wrap: wrap;
 	width: 300px;
 	height: 75px;
-}
-
-li {
-	height: 25%;
 }

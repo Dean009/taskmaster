@@ -16,22 +16,23 @@
 		<div class="grid-container">
 
 			<div class="Header">
-				<img src="../img/habbitorHeader.png" />
+				<a href="index.html">
+					<img src="../img/habbitorHeader.png" /></a>
 				<div id="loginForm">
 					<form action="" method="post">
-						<label for="username">Username: </label>
-						<input name="username" id="username" type="text" /> </br>
-						<label for="password">Password: </label>
-						<input name="password" id="password" type="text" /> </br>
+						<label for="username"></label>
+						<input name="username" id="username" type="text" placeholder="Username" /> </br>
+						<label for="password"></label>
+						<input name="password" id="password" type="text" placeholder="password" /> </br>
 						<input type="submit" value="Login" />
 					</form>
 				</div>
 			</div>
 			<div class="leftcontent">
-				<h1 id="gymRoutineHeader">Gym Routine List</h1>
-				<button id="gyminputbutton" onclick="newListItem()">Add</button>
-				<label for="gyminput">Enter a new gym routine</label>
-				<input name="gyminput" type="text" id="gyminput" placeholder="......">
+				<h1 id="gymRoutineHeader">Gym Activity</h1>
+				<label for="gyminput" id="labelgym">Enter a new gym activity</label></br>
+				<input name="gyminput" type="text" id="gyminput" placeholder="......"> </br>
+				<button id="gyminputbutton" onclick="newListItem()">add ✓</button>
 				<ul id="activityList"></ul>
 			</div>
 
@@ -41,7 +42,7 @@
 				</div>
 			</div>
 			<div class="Footer">
-				<p>&copy; Dean Moore</p>
+				<p>&copy; Shitter</p>
 			</div>
 		</div>
 	</div>
