@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>TaskMaster</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
+
 <body>
+	<div class="wrapper">
+		<div class="grid-container">
 
-<div class="grid-container">
-  <div class="Header">
-  	<div class = "wrapper">
-	  	<img src = "habbitorHeader.png" />
-	  	<div id="loginForm">
-		  	<form action="" method="post">
-		  		<label for="username">Username: </label>
-    			<input name="username" id="username" type="text" /> </br>
-    			<label for="password">Password: </label>
-    			<input name="password" id="password" type="text" /> </br>
-    			<input type="submit" value="Login"/>
-		  	</form>
-	  	</div>
+			<div class="Header">
+				<img src="habbitorHeader.png" />
+				<div id="loginForm">
+					<form action="" method="post">
+						<label for="username">Username: </label>
+						<input name="username" id="username" type="text" /> </br>
+						<label for="password">Password: </label>
+						<input name="password" id="password" type="text" /> </br>
+						<input type="submit" value="Login" />
+					</form>
+				</div>
+			</div>
+			<div class="leftcontent">
+				<h1>Gym Routine</h1>
+				<label for="gyminput">Enter a new gym routine</label>
+				<input name="gyminput" type="text" id="gyminput" placeholder="...activity...">
+				<button id="gyminputbutton" onclick="newListItem()">Add</button>
+				<ul id="activityList"></ul>
+			</div>
+
+
+			<div class="rightcontent">
+				<h1>Right</h1>
+			</div>
+			<div class="Footer">
+				<p>&copy; Dean Moore</p>
+			</div>
+		</div>
 	</div>
-	<div class="leftcontent">
-  	<h1>Left</h1>
-  </div>
-  <div class="rightcontent">
-  	<h1>Right</h1>
-  </div>
-    <div class="Footer">
-  	<p>&copy; Dean Moore</p>
-  </div>
-</div>
-</div>
 
-
+	<script src="script.js"></script>
 
 </body>
+
 </html>

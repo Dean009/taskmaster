@@ -9,6 +9,7 @@
 .wrapper{
 	overflow: visible;
 	height: 210px;
+	width: 100%;
 }
 
 .Header { grid-area: Header;}
@@ -29,17 +30,25 @@
   	position: fixed;
   	top: 0;
   	right: 0;
-  	width: 300px;
   	font-size: 13px;
   	padding: 2px 2px 2px 2px;
 }
 
 .leftcontent { grid-area: leftcontent;
-	background-color: green;}
+	background-color: green;
+	display: table-cell;
+	float: left;
+}
 
 .rightcontent { grid-area: rightcontent;
-	background-color: yellow;}
+	background-color: yellow;
+	display: table-cell;
+	float: right;
+}
 
 .Footer { grid-area: Footer;
-	background-color: blue;
-  height: 50px;}
+	position: absolute;
+	bottom: 0;
+	width:99%;
+	text-align: right;
+ 	height: 50px;}
