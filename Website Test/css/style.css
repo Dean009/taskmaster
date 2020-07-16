@@ -71,12 +71,13 @@
 	background-color: rgba(211, 211, 211, 0.541);
 	border: thick double rgb(54, 54, 54);
 	width: 99%;
+	margin-left: 20px;
 }
 
 .Footer {
 	grid-area: Footer;
 	bottom: 0;
-	width: 99%;
+	width: 100%;
 	text-align: right;
 	height: 50px;
 }
