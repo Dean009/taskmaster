@@ -24,5 +24,12 @@ Allow for creation of profile import and export (like wow addons) to share setup
 with others. Potentially ugly, utilise the profile system better and allow for user 
 created content on a store like interface. 
 
+(17th July 2020) Next to do:
 
-ADD A NAV BAR
+   ✓  Add a nav bar.
+
+    Change the list item to a text box so when its added to the containment
+    it can have more information.
+    
+  ✓  Solve why the items in the containment are not allowed to go all the way
+    to the right. 
