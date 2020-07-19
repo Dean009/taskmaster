@@ -8,7 +8,7 @@
      var t = document.createTextNode(inputValue);
      li.appendChild(t);
      if (inputValue === '') {
-         alert("Please add an activity");
+         alert("Please add an activity"); // needs changed to be more modern
      } else {
          document.getElementById("activityList").appendChild(li);
      }
@@ -32,7 +32,6 @@
              div.style.display = "none";
          }
      }
-
 
      // if an item is in the list, allow it to be dragged into the containment 'rightcontent'
      $("li").draggable({
@@ -61,8 +60,6 @@
  }
  // end of gym routine adding
 
-
-
  // cookie banner - conflict with the id close with code above
  if (localStorage.getItem('cookieSeen') != 'shown') {
      $('.cookie-banner').delay(2000).fadeIn();
@@ -72,3 +69,7 @@
  $('.close').click(function () {
      $('.cookie-banner').fadeOut();
  })
+
+ function newformactivity() {
+
+ }

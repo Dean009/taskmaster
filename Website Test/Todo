@@ -3,7 +3,7 @@ goals and aid in the formation of habbits.
 
 Allows for a 'board like' scenario where titles can be 
 rearraged to make what could be a room layout. (As in a gym, showing the 
-current progress on each machine in a simple to understand layout of said gym)
+current progress on each machine in a simple to understand layout of gym)
 
 Shows the goal for a reminder on load up of the app. 
 "I want to lose 50lbs" Potentially showing progress to achieving that 
@@ -26,10 +26,19 @@ created content on a store like interface.
 
 (17th July 2020) Next to do:
 
-   ✓  Add a nav bar.
+  ✓  Add a nav bar.
 
-    Change the list item to a text box so when its added to the containment
+  X  Change the list item to a text box so when its added to the containment
     it can have more information.
     
   ✓  Solve why the items in the containment are not allowed to go all the way
     to the right. 
+
+
+(19th July 2020) Next to do:
+
+  ✓ Change the navbar so it changes on scroll down
+
+  X Change the list item to a text box so when its added to the containment
+  it can have more information. - NOT DOING THIS ANYMORE, NOT REALLY NEEDED
+
