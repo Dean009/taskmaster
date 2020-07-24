@@ -1,1 +1,1 @@
-window.onload($("#mainheader").fadeIn(5000), $("#started").fadeIn(10000));
+window.onload($("#mainheader").fadeIn(5000), $("#started").fadeIn(10000), $("#bottomdiv").fadeIn(15000));
