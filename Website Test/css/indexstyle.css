@@ -1,0 +1,61 @@
+@font-face {
+    font-family: indexfont;
+    src: url(/fonts/ArcaMajora3/arcamajora3-bold-webfont.woff);
+}
+
+.container {
+    width: 100%;
+}
+
+IMG.mainheaderimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid white;
+}
+
+#navbar {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+#navbar a {
+    font-family: indexfont;
+    color: white;
+    text-decoration: none;
+    margin-right: 75px;
+    border-top: 1px solid white;
+    line-height: 50px;
+    padding: 10px;
+}
+
+#mainheader {
+    text-align: center;
+    margin-bottom: 160px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: white;
+    font-size: 50px;
+    font-family: indexfont;
+    display: none;
+}
+
+#started {
+    text-align: center;
+    margin-bottom: 160px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: white;
+    font-size: 50px;
+    font-family: indexfont;
+    display: none;
+}
+
+body {
+    background-color: black;
+}

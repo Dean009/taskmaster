@@ -1,0 +1,1 @@
+window.onload($("#mainheader").fadeIn(5000), $("#started").fadeIn(10000));
